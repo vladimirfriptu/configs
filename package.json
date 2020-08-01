@@ -1,0 +1,45 @@
+{
+  "name": "configs",
+  "version": "1.0.0",
+  "description": "Base configs for frontend projects",
+  "main": ".eslintrc.js",
+  "files": [
+    ".eslintrc.js",
+    "prettier.config.js",
+    "tsconfig.json",
+    ".babelrc",
+    "stylelint.config.js"
+  ],
+  "repository": "https://github.com/vladimirfriptu/configs",
+  "scripts": {
+    "lint": "eslint --quiet --ext .js,.jsx,.ts,.tsx .",
+    "lint:fix": "eslint --quiet --fix --ext .js,.jsx,.ts,.tsx ."
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.5",
+    "@babel/plugin-proposal-optional-chaining": "^7.9.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-jest-enzyme": "^7.1.2",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.2.0",
+    "prettier": "^2.0.3",
+    "stylelint": "^13.2.0",
+    "stylelint-config-css-modules": "^2.2.0",
+    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-prettier": "^1.1.2",
+    "typescript": "^3.9.5"
+  }
+}
